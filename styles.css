@@ -1,15 +1,12 @@
-*, *::before, *::after {
-    box-sizing: border-box;
-}
-
 .main {
     display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .left {
     flex: 1;
     background-image: url("background.png");
-    background-color: rgba(0,0,0,0);
+    background-color: #cccccc;
     background-repeat: no-repeat;
     background-size: auto;
 }
@@ -18,7 +15,11 @@
     flex: 2;
 }
 
+.middle-spacer-right {
+    flex-direction: row;
+}
+
 .left-stack, .right-stack {
-    display: flex;
+    flex: 1;
     flex-direction: column;
 }
