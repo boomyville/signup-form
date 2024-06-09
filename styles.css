@@ -3,6 +3,11 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
 .left {
     flex: 1;
     background-image: url("background.png");
@@ -13,6 +18,7 @@
 
 .right {
     flex: 2;
+    padding: 1rem;
 }
 
 .middle-spacer-right {
@@ -28,4 +34,10 @@
 
 .top-spacer-right {
     min-height: 120px;
+}
+
+.create {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: green;
 }
