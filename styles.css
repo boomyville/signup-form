@@ -1,6 +1,6 @@
 .main {
     display: flex;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     height: 100vh; 
 }
 
@@ -71,7 +71,7 @@ body {
 
 label {
     padding-top: 0.7rem;
-    padding-bottom: 0.7rem;
+    padding-bottom: 0.1rem;
 }
 
 .login {
@@ -113,6 +113,6 @@ input:valid {
 }
 
 input {
-    border: 2px solid black
+    border: 2px solid black;
     border-radius: 4px;
 }
