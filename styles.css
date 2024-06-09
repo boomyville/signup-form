@@ -72,11 +72,12 @@ label {
     padding-bottom: 0.7rem;
 }
 
-.login {
+.login a {
     padding-top: 20px;
     padding-bottom: 20px;
     color: #000
     text-decoration: none;
+    font-size: 1.5em;
 }
 
 .login a:hover {
@@ -90,5 +91,5 @@ label {
 .create {
     width: 20%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 2rem;
+    font-size: 1rem;
 }
