@@ -16,6 +16,13 @@ body {
     background-size: cover;
 }
 
+.middle-spacer-left {
+    flex: 1;
+    background-image: url("logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
 .right {
     flex: 2;
     padding: 1rem;
@@ -42,4 +49,17 @@ body {
     border-radius: 0.5rem;
     background-color: green;
     color: #FFF;
+}
+
+.horizontal-container {
+    display: flex;
+    flex-direction: row;
+}
+.vertical-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.top-spacer-left {
+    height: 30%;
 }
