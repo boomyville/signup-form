@@ -100,6 +100,10 @@ input:invalid {
     border: 2px red;
   }
 
-  input:valid {
-    border: 2px black;
-  }
+input:valid {
+    border: 2px green;
+}
+
+input {
+    border: 2px black
+}
