@@ -17,3 +17,8 @@
 .right {
     flex: 2;
 }
+
+.left-stack, .right-stack {
+    display: flex;
+    flex-direction: column;
+}
