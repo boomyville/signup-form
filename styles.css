@@ -1,3 +1,7 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
 .main {
     display: flex;
 }
@@ -5,7 +9,7 @@
 .left {
     flex: 1;
     background-image: url("background.png");
-    background-color: #cccccc;
+    background-color: rgba(0,0,0,0);
     background-repeat: no-repeat;
     background-size: auto;
 }
