@@ -1,6 +1,7 @@
 .main {
     display: flex;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 100vh; 
 }
 
 body {
