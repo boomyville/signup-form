@@ -104,10 +104,15 @@ input:invalid {
     border: 2px solid red;
   }
 
+input:focus {
+    border: 2px solid #1188FF;
+}
+
 input:valid {
     border: 2px solid green;
 }
 
 input {
     border: 2px solid black
+    border-radius: 4px;
 }
