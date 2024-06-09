@@ -6,21 +6,6 @@
     <link rel="stylesheet" href="styles.css">	
     <title>Document</title>
 
-    <script>
-      const form = document.getElementById('login-form');
-      const passwordError = document.getElementById('password-error');
-        const password = document.getElementById('password');
-        const password2 = document.getElementById('password2');
-        form.addEventListener('submit', (e) => {
-            e.preventDefault();
-            if (password.value !== password2.value) {
-                passwordError.textContent = 'Passwords do not match!';
-            } else {
-                passwordError.textContent = ''; // Clear the error message
-                // Submit the form or perform other actions
-            }
-        });
-    </script>
   </head>
   <body>
     <div class="main">
@@ -61,5 +46,22 @@
       </div>
       </form>
     </div>
+
+    
+    <script>
+      const form = document.getElementById('login-form');
+      const passwordError = document.getElementById('password-error');
+        const password = document.getElementById('password');
+        const password2 = document.getElementById('password2');
+        form.addEventListener('submit', (e) => {
+            e.preventDefault();
+            if (password.value !== password2.value) {
+                passwordError.textContent = 'Passwords do not match!';
+            } else {
+                passwordError.textContent = ''; // Clear the error message
+                // Submit the form or perform other actions
+            }
+        });
+    </script>
   </body>
 </html>
