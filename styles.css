@@ -26,7 +26,7 @@ body {
     background-size: cover;
     background-color: rgba(99, 99, 99, 0.5);
     background-repeat: no-repeat;
-    height: 30%;
+    height: 50%;
 }
 
 .right {
@@ -47,7 +47,7 @@ body {
 
 .top-spacer-right, .bottom-spacer-right {
     min-height: 120px;
-    background-color: #CCCCCC;
+    background-color: #EEE;
     padding: 1rem;
 }
 
@@ -68,9 +68,27 @@ body {
 }
 
 label {
-    padding: 0.7rem;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
 }
 
 .login {
-    padding: 0.83em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #000
+    text-decoration: none;
+}
+
+.login a:hover {
+    color: #88BBAA;
+}
+
+.login a:visited {
+    color: #000;
+}
+
+.create {
+    width: 20%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
 }
