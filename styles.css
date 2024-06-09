@@ -31,7 +31,6 @@ body {
 
 .right {
     flex: 2;
-    padding: 1rem;
 }
 
 .middle-spacer-right {
@@ -49,6 +48,7 @@ body {
 .top-spacer-right, .bottom-spacer-right {
     min-height: 120px;
     background-color: #CCCCCC;
+    padding: 1rem;
 }
 
 .create {
