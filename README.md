@@ -1,2 +1,5 @@
 # signup-form
-A sign-in form utilising HTML's built-in validation APIs and CSS pseudo-classes for styling
+A sign up form utilising CSS pseudo-classes and HTML constraint APIs as part of the Odin Project
+
+[Live demo](https://boomyville.github.io/signup-form)
+
