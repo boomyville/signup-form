@@ -94,3 +94,11 @@ label {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1rem;
 }
+
+input:invalid {
+    border: 2px red;
+  }
+
+  input:valid {
+    border: 2px black;
+  }
