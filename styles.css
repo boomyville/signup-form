@@ -13,7 +13,7 @@ body {
     background-image: url("background.png");
     background-color: #cccccc;
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
 }
 
 .right {
@@ -30,6 +30,7 @@ body {
     flex: 1;
     display: flex;
     flex-direction: column;
+    padding: 1rem;
 }
 
 .top-spacer-right {
@@ -40,4 +41,5 @@ body {
     padding: 1rem;
     border-radius: 0.5rem;
     background-color: green;
+    color: #FFF;
 }
