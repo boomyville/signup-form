@@ -16,11 +16,16 @@ body {
     background-size: cover;
 }
 
+.top-spacer-left {
+    height: 30%;
+}
+
 .middle-spacer-left {
     flex: 1;
     background-image: url("logo.png");
     background-size: contain;
     background-repeat: no-repeat;
+    height: 30%;
 }
 
 .right {
@@ -60,6 +65,3 @@ body {
     flex-direction: column;
 }
 
-.top-spacer-left {
-    height: 30%;
-}
